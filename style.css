@@ -9,7 +9,12 @@ h1{
     border-radius: 20px;
     border: solid 1px black;
 }
-
+h2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+}
 button{
     border:solid 2px rgb(80, 80, 80);
     font-size: 25px;
@@ -32,17 +37,17 @@ button:hover {
 .azul{
   background-color: rgba(0, 0, 0, 0.884);
   box-shadow: 3px 10px 20px;
-  color: blue;
+  color: rgb(85, 85, 255);
 }
 .vermelho{
   background-color: black;
   box-shadow: 3px 10px 20px;
-  color: rgb(201, 8, 8);
+  color: rgb(255, 28, 28);
 }
 .verde{
   background-color: black;
   box-shadow: 3px 10px 20px;
-  color:rgb(11, 107, 11);
+  color:rgb(23, 232, 23);
 }
 #botaum{
     background-color: rgb(231, 231, 231);
