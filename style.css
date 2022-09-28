@@ -1,0 +1,54 @@
+h1{
+    font-size:70px;
+    text-align: center;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(191, 191, 255);
+    border-radius: 20px;
+    border: solid 1px black;
+}
+
+button{
+    border:solid 2px rgb(80, 80, 80);
+    font-size: 25px;
+    background-color: rgb(191, 191, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius:14px;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+}
+.botao{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+button:hover {
+  box-shadow: rgb(70, 70, 70) 5px 5px 8px;
+}
+.azul{
+  background-color: rgba(0, 0, 0, 0.884);
+  box-shadow: 3px 10px 20px;
+  color: blue;
+}
+.vermelho{
+  background-color: black;
+  box-shadow: 3px 10px 20px;
+  color: rgb(201, 8, 8);
+}
+.verde{
+  background-color: black;
+  box-shadow: 3px 10px 20px;
+  color:rgb(11, 107, 11);
+}
+#botaum{
+    background-color: rgb(231, 231, 231);
+    color: black;
+    font-size: 17px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 3px grey;
+    cursor: pointer;
+  }
